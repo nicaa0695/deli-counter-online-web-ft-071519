@@ -6,6 +6,7 @@ def line(line_array)
   else line_message = "The line is currently: "
     line_array.each_with_index do |name, index|
       line_message += "#{index + 1}. #{name}"
+    end
+    puts line_message
   end
-  puts line_message
 end
