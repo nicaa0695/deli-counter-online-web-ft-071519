@@ -5,7 +5,7 @@ def line(line_array)
     puts "The line is currently empty."
   else line_message = "The line is currently: "
     line_array.each_with_index do |name, index|
-      line_message += " #{index + 1}. #{name}"
+      line_message += "#{index + 1}. #{name}"
     end
     puts line_message.rstrip
   end
