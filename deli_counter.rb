@@ -7,5 +7,5 @@ def line(line_array)
     line_array.each_with_index do |name, index|
       line_message += "#{index + 1}. #{name}"
   end
-  puts line_message.rstrip
+  puts line_message
 end
